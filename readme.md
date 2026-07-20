@@ -1,99 +1,99 @@
-#  Machine Learning Projects & Notebooks
+# 🤖 Makine Öğrenmesi Projeleri ve Notebook'ları
 
-A comprehensive collection of **Machine Learning** notebooks covering the fundamental concepts of **Regression, Classification, Clustering, Natural Language Processing (NLP), Dimensionality Reduction, Model Selection, and Recommendation Systems**.
+Bu depo; **Regresyon, Sınıflandırma, Kümeleme, Doğal Dil İşleme (NLP), Boyut İndirgeme, Model Seçimi ve Öneri Sistemleri** gibi makine öğrenmesinin temel konularını kapsayan kapsamlı Jupyter Notebook çalışmalarını içermektedir.
 
-Each notebook is designed to provide a **step-by-step implementation** of machine learning algorithms using real datasets and Python.
-
----
-
-##  Project Structure
-
-### 📈 Regression
-
-| Notebook | Description |
-|----------|-------------|
-| **1-Linear_Regression.ipynb** | Simple Linear Regression implementation for modeling the relationship between one independent and one dependent variable. |
-| **2-Multiple_Linear_Regression.ipynb** | Predicts a target variable using multiple independent features. |
-| **3-Polynomial_Linear_Regression.ipynb** | Models nonlinear relationships using polynomial features. |
-| **4-Decision_Tree_Regression.ipynb** | Performs regression using Decision Tree algorithms. |
-| **5-Random_Forest_Regression.ipynb** | Improves regression performance using an ensemble of Decision Trees. |
-| **6-Evaluation_Regression_Models.ipynb** | Evaluates regression models using metrics such as R² Score, MAE, MSE, and RMSE. |
+Her notebook, gerçek veri setleri kullanılarak makine öğrenmesi algoritmalarının **adım adım uygulanışını** göstermek amacıyla hazırlanmıştır.
 
 ---
 
-### 🎯 Classification
+# 📚 Proje İçeriği
 
-| Notebook | Description |
-|----------|-------------|
-| **7-Logistic_Regression_Models.ipynb** | Binary classification using Logistic Regression. |
-| **8-K-Nearest_Neighbour_Classification.ipynb** | Classifies samples based on the K nearest neighbors. |
-| **9-Support_Vector_Machine_Classification.ipynb** | Implements Support Vector Machines (SVM) for classification tasks. |
-| **10-Naive_Bayes_Classification.ipynb** | Fast probabilistic classification using Bayes' Theorem. |
-| **11-Decision_Tree_Classification.ipynb** | Classification based on hierarchical decision rules. |
-| **12-Random_Forest_Classification.ipynb** | Ensemble classification using multiple Decision Trees. |
-| **13-Evaluation_Classification_Models.ipynb** | Performance evaluation with Confusion Matrix, Precision, Recall, Accuracy, and F1-Score. |
+## 📈 Regresyon
 
----
-
-### 🔍 Unsupervised Learning
-
-| Notebook | Description |
-|----------|-------------|
-| **14-K-Means_Clustering.ipynb** | Groups unlabeled data into K distinct clusters. |
-| **15-Hierarchical_Clustering.ipynb** | Performs hierarchical clustering and visualizes dendrograms. |
+| Notebook | Açıklama |
+|----------|----------|
+| **1-Linear_Regression.ipynb** | Tek bağımsız değişken ile doğrusal regresyon modelinin oluşturulmasını gösterir. |
+| **2-Multiple_Linear_Regression.ipynb** | Birden fazla bağımsız değişken kullanarak hedef değişkenin tahmin edilmesini sağlar. |
+| **3-Polynomial_Linear_Regression.ipynb** | Doğrusal olmayan veri ilişkilerini polinom özellikleri kullanarak modeller. |
+| **4-Decision_Tree_Regression.ipynb** | Karar Ağacı algoritması ile regresyon tahmini gerçekleştirir. |
+| **5-Random_Forest_Regression.ipynb** | Birden fazla karar ağacını birleştirerek daha başarılı regresyon tahminleri üretir. |
+| **6-Evaluation_Regression_Models.ipynb** | Regresyon modellerini R² Score, MAE, MSE ve RMSE gibi performans metrikleri ile değerlendirir. |
 
 ---
 
-### 🧠 Natural Language Processing
+## 🎯 Sınıflandırma
 
-| Notebook | Description |
-|----------|-------------|
-| **16-Natural_Language_Process_(NLP).ipynb** | Text preprocessing, feature extraction, and sentiment classification using NLP techniques. |
-
----
-
-### 📉 Dimensionality Reduction
-
-| Notebook | Description |
-|----------|-------------|
-| **17-Principal_Component_Analysis_(PCA).ipynb** | Reduces feature dimensions while preserving maximum variance. |
+| Notebook | Açıklama |
+|----------|----------|
+| **7-Logistic_Regression_Models.ipynb** | Lojistik Regresyon kullanarak ikili sınıflandırma gerçekleştirir. |
+| **8-K-Nearest_Neighbour_Classification.ipynb** | K-En Yakın Komşu (KNN) algoritması ile sınıflandırma yapar. |
+| **9-Support_Vector_Machine_Classification.ipynb** | Support Vector Machine (SVM) algoritmasını kullanarak sınıflandırma gerçekleştirir. |
+| **10-Naive_Bayes_Classification.ipynb** | Bayes Teoremi tabanlı olasılıksal sınıflandırma uygular. |
+| **11-Decision_Tree_Classification.ipynb** | Karar Ağacı algoritması ile sınıflandırma gerçekleştirir. |
+| **12-Random_Forest_Classification.ipynb** | Random Forest algoritması ile yüksek doğrulukta sınıflandırma yapar. |
+| **13-Evaluation_Classification_Models.ipynb** | Confusion Matrix, Accuracy, Precision, Recall ve F1-Score metrikleriyle modelleri değerlendirir. |
 
 ---
 
-### ⚙️ Model Optimization
+## 🔍 Gözetimsiz Öğrenme
 
-| Notebook | Description |
-|----------|-------------|
-| **18-Model_Selection.ipynb** | Model tuning using K-Fold Cross Validation and Grid Search. |
-
----
-
-### 🎬 Recommendation Systems
-
-| Notebook | Description |
-|----------|-------------|
-| **19-Recommendation_Systems.ipynb** | Builds a recommendation engine based on user preferences and similarity measures. |
+| Notebook | Açıklama |
+|----------|----------|
+| **14-K-Means_Clustering.ipynb** | Etiketsiz verileri K adet kümeye ayırır. |
+| **15-Hierarchical_Clustering.ipynb** | Hiyerarşik kümeleme gerçekleştirerek dendrogram oluşturur. |
 
 ---
 
-# 📊 Datasets
+## 🧠 Doğal Dil İşleme (NLP)
 
-The repository includes several datasets used throughout the notebooks.
-
-| Dataset | Purpose |
-|---------|---------|
-| **linear_regression_dataset.csv** | Simple Linear Regression |
-| **multiple_linear_regression_dataset.csv** | Multiple Linear Regression |
-| **polynomial_regression.csv** | Polynomial Regression |
-| **decision_tree_regression_dataset.csv** | Decision Tree Regression |
-| **random_forest_regression_dataset.csv** | Random Forest Regression |
-| **gender_classifier.csv** | Binary Classification |
-| **movie.csv** | NLP & Recommendation Systems |
-| **data.csv** | General Machine Learning Examples |
+| Notebook | Açıklama |
+|----------|----------|
+| **16-Natural_Language_Process_(NLP).ipynb** | Metin ön işleme, özellik çıkarımı ve duygu analizi gibi NLP uygulamalarını içerir. |
 
 ---
 
-## 🛠️ Technologies Used
+## 📉 Boyut İndirgeme
+
+| Notebook | Açıklama |
+|----------|----------|
+| **17-Principal_Component_Analysis_(PCA).ipynb** | Verinin boyutunu bilgi kaybını en aza indirerek azaltır. |
+
+---
+
+## ⚙️ Model Seçimi ve Optimizasyonu
+
+| Notebook | Açıklama |
+|----------|----------|
+| **18-Model_Selection.ipynb** | K-Fold Cross Validation ve Grid Search yöntemleri ile en uygun modeli belirler. |
+
+---
+
+## 🎬 Öneri Sistemleri
+
+| Notebook | Açıklama |
+|----------|----------|
+| **19-Recommendation_Systems.ipynb** | Kullanıcı tercihleri ve benzerlik hesaplamaları kullanarak öneri sistemi oluşturur. |
+
+---
+
+# 📊 Veri Setleri
+
+Bu depo, notebook'larda kullanılan çeşitli veri setlerini de içermektedir.
+
+| Veri Seti | Kullanım Amacı |
+|-----------|----------------|
+| **linear_regression_dataset.csv** | Basit Doğrusal Regresyon |
+| **multiple_linear_regression_dataset.csv** | Çoklu Doğrusal Regresyon |
+| **polynomial_regression.csv** | Polinomsal Regresyon |
+| **decision_tree_regression_dataset.csv** | Karar Ağacı Regresyonu |
+| **random_forest_regression_dataset.csv** | Random Forest Regresyonu |
+| **gender_classifier.csv** | İkili Sınıflandırma |
+| **movie.csv** | NLP ve Öneri Sistemleri |
+| **data.csv** | Genel Makine Öğrenmesi Uygulamaları |
+
+---
+
+# 🛠️ Kullanılan Teknolojiler
 
 - Python
 - NumPy
@@ -106,37 +106,37 @@ The repository includes several datasets used throughout the notebooks.
 
 ---
 
-## 🎯 Learning Objectives
+# 🎯 Öğrenme Hedefleri
 
-This repository demonstrates the complete Machine Learning workflow:
+Bu proje, uçtan uca bir makine öğrenmesi geliştirme sürecini uygulamalı olarak göstermektedir.
 
-- ✅ Data Preprocessing
-- ✅ Feature Engineering
-- ✅ Regression Algorithms
-- ✅ Classification Algorithms
-- ✅ Clustering Techniques
-- ✅ Natural Language Processing (NLP)
-- ✅ Principal Component Analysis (PCA)
-- ✅ Model Selection & Hyperparameter Tuning
-- ✅ Recommendation Systems
-- ✅ Model Evaluation
-
----
-
-## 🚀 Repository Goal
-
-The primary goal of this repository is to provide a **hands-on Machine Learning reference** for students, researchers, and developers.
-
-Each notebook contains:
-
-- 📖 Clear explanations
-- 💻 Well-commented Python code
-- 📊 Visualizations
-- 📈 Model evaluation
-- 🔬 Practical examples using real datasets
-
-Whether you're starting your Machine Learning journey or reviewing core algorithms, these notebooks serve as a practical learning resource.
+- ✅ Veri Ön İşleme (Data Preprocessing)
+- ✅ Özellik Mühendisliği (Feature Engineering)
+- ✅ Regresyon Algoritmaları
+- ✅ Sınıflandırma Algoritmaları
+- ✅ Kümeleme Teknikleri
+- ✅ Doğal Dil İşleme (NLP)
+- ✅ Temel Bileşen Analizi (PCA)
+- ✅ Model Seçimi ve Hiperparametre Optimizasyonu
+- ✅ Öneri Sistemleri
+- ✅ Model Performans Değerlendirme
 
 ---
 
-## ⭐ If you find this repository helpful, consider giving it a Star!
+# 🚀 Projenin Amacı
+
+Bu projenin temel amacı; **öğrenciler, araştırmacılar ve yapay zekâ geliştiricileri** için uygulamalı bir **Makine Öğrenmesi kaynak deposu** oluşturmaktır.
+
+Her notebook aşağıdaki bileşenleri içermektedir:
+
+- 📖 Konuya ait açıklamalar
+- 💻 Açıklamalı Python kodları
+- 📊 Veri görselleştirmeleri
+- 📈 Model performans değerlendirmeleri
+- 🔬 Gerçek veri setleri üzerinde uygulamalı örnekler
+
+Makine öğrenmesine yeni başlayanlar için güçlü bir başlangıç kaynağı, deneyimli geliştiriciler için ise hızlı bir başvuru rehberi olmayı amaçlamaktadır.
+
+---
+
+## ⭐ Bu projeyi faydalı bulduysanız repoya **Star (⭐)** vermeyi unutmayın!
