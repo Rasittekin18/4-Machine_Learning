@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Projects & Notebooks
+#  Machine Learning Projects & Notebooks
 
 A comprehensive collection of **Machine Learning** notebooks covering the fundamental concepts of **Regression, Classification, Clustering, Natural Language Processing (NLP), Dimensionality Reduction, Model Selection, and Recommendation Systems**.
 
@@ -6,7 +6,7 @@ Each notebook is designed to provide a **step-by-step implementation** of machin
 
 ---
 
-## 📚 Project Structure
+##  Project Structure
 
 ### 📈 Regression
 
