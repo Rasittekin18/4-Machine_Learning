@@ -1,4 +1,4 @@
-# 🤖 Makine Öğrenmesi Projeleri ve Notebook'ları
+#  Makine Öğrenmesi Projeleri ve Notebook'ları
 
 Bu depo; **Regresyon, Sınıflandırma, Kümeleme, Doğal Dil İşleme (NLP), Boyut İndirgeme, Model Seçimi ve Öneri Sistemleri** gibi makine öğrenmesinin temel konularını kapsayan kapsamlı Jupyter Notebook çalışmalarını içermektedir.
 
